@@ -2,7 +2,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/johnpaulmedina/nova-metric-polling.svg?style=for-the-badge)](https://packagist.org/packages/johnpaulmedina/nova-metric-polling)
 # Laravel Nova Metric Polling
 
-An extension of Laravel Nova Metrics to allow for interval polling. 
+An extension of Laravel Nova Metrics to allow for interval polling. Want your Nova dashboard metrics up to date without refreshing, or having to apply a filter? These metrics extend the existing builtin Laravel Nova 4 Metrics and will allow for an interval duration to be set that will trigger an automatic refresh of any number of metrics displayed.
 
 Simple integration to existing Nova\Metrics
 
