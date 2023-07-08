@@ -1,0 +1,33 @@
+{
+    "name": "johnpaulmedina/nova-metric-polling",
+    "description": "An extension of Laraval Nova Metrics to allow for interval polling.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "nova4"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "require-dev": {
+        "laravel/nova": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Johnpaulmedina\\NovaMetricPolling\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Johnpaulmedina\\NovaMetricPolling\\MetricPollingServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
