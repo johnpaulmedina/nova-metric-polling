@@ -18,7 +18,7 @@ The package will be automatically registered via the `MetricPollingServiceProvid
 
 ## Usage
 
-First, add the following trait `use Johnpaulmedina\NoveMetricPolling\ValueInterval` to any of your Nova Metrics
+First, add the following trait `use Johnpaulmedina\NovaMetricPolling\ValueInterval` to any of your Nova Metrics
 
 ```php
 <?php
